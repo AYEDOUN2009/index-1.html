@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>T-shirt / Outfit | IB</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <h1 class="logo">BIENVENUE CHEZ IB</h1>
+
+      <nav class="nav">
+        <a class="btn" href="#accueil">ACCUEIL</a>
+        <a class="btn" href="#apropos">A PROPOS</a>
+        <a class="btn" href="#contact">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="accueil" class="container">
+    <section class="hero">
+      <h2>T-shirt</h2>
+      <p>Sur ce site nous allons vendre des habits t-shirt</p>
+    </section>
+
+    <section id="apropos" class="section">
+      <h3>A PROPOS</h3>
+      <p>
+        Découvrez une sélection de looks streetwear modernes et confortables.
+        (Tu peux remplacer ce texte par ton contenu.)
+      </p>
+    </section>
+
+    <section class="gallery section">
+      <h3>Nos produits</h3>
+
+      <div class="gallery__grid">
+        <!-- Remplace ces noms par ceux de tes fichiers réels dans /images -->
+        <figure class="card">
+          <img src="Man outfits.jpg" alt="Man outfits" />
+        </figure>
+
+        <figure class="card">
+          <img src="men fashion outfit collection.jpg" alt="Men fashion outfit collection" />
+        </figure>
+
+        <figure class="card">
+          <img
+            src="Jordan.jpg"
+            alt="Premium grey tracksuit set"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h3>CONTACT</h3>
+      <p>
+        Email :
+        <a class="link" href="mailto:mdc98099@gmail.com">mdc98099@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> IB - Tous droits réservés</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
